@@ -86,3 +86,12 @@ XF86AudioLowerVolume
 #Mute Volume
 XF86AudioMute
 	/usr/bin/wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+
+
+
+#
+#Brightness
+#
+
+XF86MonBrightness{Up,Down}  
+  brightnessctl s 250{+,-}
