@@ -8,6 +8,10 @@
 super + Return
 	alacritty
 
+#screenshot
+Print
+	flameshot gui
+	
 #Close Window
 super + shift q
 	bspc node -c
@@ -16,6 +20,10 @@ super + shift q
 super + s
 	rofi -show drun
 
+#Open Thunar
+super + e
+	thunar
+	
 # reload sxhkd configuration file
 super + shift + s
 	pkill -USR1 -x sxhkd ;\
@@ -32,6 +40,7 @@ super + {h,j,k,l}
 #Swap node
 super + {_,shift + }{h,j,k,l}
 	bspc node -{f,s} {west,south,north,east}
+
 
 #
 #Window Options
@@ -56,6 +65,10 @@ super + alt + {h,j,k,l}
 # contract a window by moving one of its side inward
 super + alt + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+#Rotate window horizontal/Vertical ClockWise
+super + shift + v
+	bspc node @parent --rotate 90
 
 
 #
