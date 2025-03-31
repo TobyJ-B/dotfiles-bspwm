@@ -1,7 +1,8 @@
 # dotfiles-bspwm
 
 ## To Do
-###High Priority
+
+### High Priority
 -Finish customizing nvim and adding plugins to match rice
 
 ### Medium Priority
@@ -13,7 +14,7 @@
 -Add widgets with eww
 
 
-#Personal Notes
+### Personal Notes
 Main Color - #C16B7E
 Terminal Font - NotoMonoNerd-Regular
 Keep as simple as possible
