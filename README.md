@@ -1,15 +1,15 @@
 # dotfiles-bspwm
 
-##To Do
+## To Do
 ###High Priority
 -Finish customizing nvim and adding plugins to match rice
 
-###Medium Priority
+### Medium Priority
 -Customize drun to match rice
 -Customize dunst to match rice
 -Add network button or make network script to make connecting to wifi easier
 
-###Maybe
+### Maybe
 -Add widgets with eww
 
 
