@@ -6,15 +6,15 @@
 -Finish customizing nvim and adding plugins to match rice
 
 ### Medium Priority
--Customize drun to match rice
--Customize dunst to match rice
--Add network button or make network script to make connecting to wifi easier
+-Customize drun to match rice</br>
+-Customize dunst to match rice</br>
+-Add network button or make network script to make connecting to wifi easier</br>
 
 ### Maybe
--Add widgets with eww
+-Add widgets with eww</br>
 
 
 ### Personal Notes
-Main Color - #C16B7E
-Terminal Font - NotoMonoNerd-Regular
-Keep as simple as possible
+Main Color - #C16B7E</br>
+Terminal Font - NotoMonoNerd-Regular</br>
+Keep as simple as possible</br>
