@@ -3,6 +3,7 @@
 feh --bg-fill ~/Downloads/Background/bg7.jpg
 sxhkd &
 picom &
+dunst &
 ~/.config/polybar/launch.sh &
 
 ##BSPWM Settings
