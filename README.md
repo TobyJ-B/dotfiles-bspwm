@@ -1,5 +1,5 @@
 # dotfiles-bspwm
-
+A simple BSPWM Rice based around vim binds
 ![image](https://github.com/user-attachments/assets/5f292ccc-8896-45a7-9176-0d0541c36444)
 
 ## To Do
