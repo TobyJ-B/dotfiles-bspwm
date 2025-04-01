@@ -3,8 +3,9 @@
 * {
 //possible colors
 //#232323
+//#303030
 //
-	bg: #303030;
+	bg: #120606;
 	background-color: @bg;
 }
 
@@ -13,7 +14,7 @@ configuration {
 	show-icons: true;
 		icon-theme: "Papirus";
 	location: 0;
-	font: "JetBrainsMono Nerd Font 12";	
+	font: "Terminus 15";	
 	display-drun: "Launch:";
 }
 
@@ -21,7 +22,8 @@ window {
 	width: 35%;
 	transparency: "real";
 	orientation: vertical;
-	border-color: #74adc0;
+	border: 2 2 2 2;
+	border-color: #0a0a0a;
 }
 
 mainbox {
@@ -38,7 +40,7 @@ element {
 }
 
 element selected {
-	background-color: #74adc0;
+	background-color: #882c2c;
 }
 
 element-text {
@@ -73,7 +75,7 @@ entry {
 }
 
 inputbar {
-	background-image: url("~/.config/rofi/lain4.jpg", width);
+	background-image: url("~/.config/rofi/lain4pink.png", width);
 	padding: 180 0 0;
 	margin: 0 0 0 0;
 } 
