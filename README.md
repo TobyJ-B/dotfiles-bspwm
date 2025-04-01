@@ -6,7 +6,7 @@
 -Finish customizing nvim and adding plugins to match rice
 
 ### Medium Priority
--Customize drun to match rice</br>
+-Customize rofi to match rice(Change color scheme)</br>
 -Customize dunst to match rice</br>
 -Add network button or make network script to make connecting to wifi easier</br>
 
