@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# List available Wi-Fi networks
+nmcli device wifi list
+
+echo ""
+echo "Enter the SSID of the network you want to connect to:"
+read -r SSID
+
+echo "Enter the Wi-Fi password (leave empty for open networks):"
+read -s PASSWORD
+
+# Connect to the Wi-Fi network
+if [ -z "$PASSWORD" ]; then
+    nmcli device wifi connect "$SSID"
+else
+    nmcli device wifi connect "$SSID" password "$PASSWORD"
+fi
+
+# Check connection status
+if [ $? -eq 0 ]; then
+    echo "Successfully connected to $SSID!"
+else
+    echo "Failed to connect. Check SSID and password."
+fi
+
