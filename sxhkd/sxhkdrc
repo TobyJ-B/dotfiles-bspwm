@@ -23,6 +23,7 @@ super + s
 #Open Thunar
 super + e
 	thunar
+
 	
 # reload sxhkd configuration file
 super + shift + s
