@@ -10,6 +10,9 @@
 -Customize dunst to match rice</br>
 -Add network button or make network script to make connecting to wifi easier</br>
 
+### Low Priority
+-Add an install script to install all required packages
+
 ### Maybe
 -Add widgets with eww</br>
 
