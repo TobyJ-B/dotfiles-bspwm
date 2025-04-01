@@ -3,18 +3,18 @@
 ## To Do
 
 ### High Priority
--Finish customizing nvim and adding plugins to match rice
+- Finish customizing nvim and adding plugins to match rice
 
 ### Medium Priority
--Customize rofi to match rice(Change color scheme)</br>
--Customize dunst to match rice</br>
--Add network button or make network script to make connecting to wifi easier</br>
+- Customize rofi to match rice(Change color scheme)</br>
+- Customize dunst to match rice</br>
+- Add network button or make network script to make connecting to wifi easier</br>
 
 ### Low Priority
--Add an install script to install all required packages
+- Add an install script to install all required packages
 
 ### Maybe
--Add widgets with eww</br>
+- Add widgets with eww</br>
 
 
 ### Personal Notes
