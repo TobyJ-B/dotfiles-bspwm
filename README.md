@@ -9,6 +9,7 @@
 - Add an install script to install all required packages
 
 ### Low Priority
+- Configure dingllm with nvim
 
 ### Maybe
 - Add widgets with eww</br>
