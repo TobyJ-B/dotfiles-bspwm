@@ -5,7 +5,7 @@
 //#232323
 //#303030
 //
-	bg: #120606;
+	bg: #181818;
 	background-color: @bg;
 }
 
@@ -22,7 +22,7 @@ window {
 	width: 35%;
 	transparency: "real";
 	orientation: vertical;
-	border: 2 2 2 2;
+	border: 0 0 0 0;
 	border-color: #0a0a0a;
 }
 
@@ -75,7 +75,7 @@ entry {
 }
 
 inputbar {
-	background-image: url("~/.config/rofi/lain4pink.png", width);
+	background-image: url("~/.config/rofi/lain4.jpg", width);
 	padding: 180 0 0;
 	margin: 0 0 0 0;
 } 
