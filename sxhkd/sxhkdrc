@@ -55,7 +55,13 @@ super + {t,shift + t,space,f}
 ctrl + alt + {Left, Down, Up, Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
+# Move window to next workspace
+super + shift + Right
+	bspc node -d next.local --follow
 
+#Move window to previous workspace
+super + shift + Left 
+	bspc node -d prev.local --follow
 
 ## resize
 
