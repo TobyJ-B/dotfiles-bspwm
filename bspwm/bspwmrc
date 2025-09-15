@@ -1,0 +1,13 @@
+#!/bin/sh
+##Autostart applications
+feh --bg-fill ~/Photos/Background/bg7.jpg
+sxhkd &
+picom &
+dunst &
+udiskie -t &
+~/.config/polybar/launch.sh &
+
+##BSPWM Settings
+bspc monitor -d 1 2 3 4 5
+bspc config border_width 2
+bspc config window_gap 10

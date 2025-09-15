@@ -1,0 +1,6 @@
+[window]
+	opacity = 0.5
+
+[font]
+normal = {family = "NotoMono Nerd Font", style = "Regular"}
+size = 11
