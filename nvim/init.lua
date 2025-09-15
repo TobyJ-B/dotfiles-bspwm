@@ -50,10 +50,13 @@ vim.cmd("colorscheme vague")
 --)
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
+local lspconfig = require('lspconfig')
 
-require('lspconfig').lua_ls.setup({ capabilities = capabilities })
-require('lspconfig').pyright.setup({ capabilities = capabilities })
+local servers = {"pyright", "lua_ls", "jdtls", "clangd", "texlab"}
 
+for _, lsp in ipairs(servers) do
+  lspconfig[lsp].setup({ capabilities = capabilities })
+end
 
 local cmp = require('cmp')
 
