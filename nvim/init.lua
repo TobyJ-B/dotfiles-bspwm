@@ -12,6 +12,7 @@ vim.opt.undofile = true
 vim.opt.signcolumn = "yes"
 vim.o.winborder = "rounded"
 
+
 vim.pack.add({
 	{ src = "https://github.com/vague2k/vague.nvim" },
 	{ src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "master" },
@@ -40,18 +41,6 @@ require "vague".setup({ transparent = true })
 vim.cmd("colorscheme vague")
 
 -- lsp
-vim.api.nvim_create_autocmd('LspAttach', {
-	group = vim.api.nvim_create_augroup('my.lsp', {}),
-	callback = function(args)
-		local client = assert(vim.lsp.get_client_by_id(args.data.client_id))
-		if client:supports_method('textDocument/completion') then
-			-- Optional: trigger autocompletion on EVERY keypress. May be slow!
-			local chars = {}; for i = 32, 126 do table.insert(chars, string.char(i)) end
-			client.server_capabilities.completionProvider.triggerCharacters = chars
-			vim.lsp.completion.enable(true, client.id, args.buf, { autotrigger = true })
-		end
-	end,
-})
 
 --vim.lsp.enable(
 --	{
@@ -65,8 +54,6 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 require('lspconfig').lua_ls.setup({ capabilities = capabilities })
 require('lspconfig').pyright.setup({ capabilities = capabilities })
 
-
-local cmp = require('cmp')
 
 local cmp = require('cmp')
 
